@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+    background: linear-gradient(to right, rgb(45, 136, 254), rgb(149, 221, 249));
+    
+}
+.cardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.List{
+    list-style-type: none;
+    padding: 8px;
+    font-size: large;
+}
+.uList{
+    margin: 10px 10px;
+    padding: 0 0 0 20px;
+}
+.head,.title{
+    text-align: center;
+    margin: 20px;
+    
+}
+.title{font-size: 40px;
+margin-top: 10px;}
+.head{
+    font-size: large;   
+    opacity: 50%;}
+    
+.card{
+    width: 30%;
+    background: white;
+    margin:10% 0% ;
+    border-radius: 4%;
+    
+}
+.ruler{
+    width: 85%;
+    opacity: 40%;
+}
+.rulerDiv{
+    display: flex;
+    justify-content: center;
+}
+.buttondiv{
+    display: flex;
+        justify-content: center;
+}
+.button{
+    width:90%;
+    height:40px;
+    border: none;
+    background: rgb(30, 143, 242);
+    color: white;
+    border-radius: 20px;
+    margin: 10px 0px 30px;
+    opacity: 60%;
+}
+.xmark{
+    opacity: 50%;
+}
+.button:hover{
+    opacity: 100%;
+}
+@media screen and (max-width: 740px){
+    * {
+            margin: 0px;
+            padding: 0px;
+        }
+    .cardContainer {
+            display: block;
+            margin: 30px;
+            padding: 25px;
+            
+            
+            
+    }
+    .card{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .head{
+           
+       padding-top: 15px;
+    
+    }
+}
