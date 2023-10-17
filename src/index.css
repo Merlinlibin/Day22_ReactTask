@@ -70,13 +70,12 @@ margin-top: 10px;}
     opacity: 100%;
 }
 @media screen and (max-width: 740px){
-    * {
-            margin: 0px;
-            padding: 0px;
-        }
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
     .cardContainer {
             display: block;
-            margin: 30px;
             padding: 25px;
             
             
