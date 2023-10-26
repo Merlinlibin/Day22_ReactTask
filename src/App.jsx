@@ -1,4 +1,4 @@
-import Pricecard from "./component/priceCard"
+import Pricecard from "../src/component/priceCard"
 
 function App({ data }) {
 

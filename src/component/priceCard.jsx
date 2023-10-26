@@ -13,7 +13,7 @@ function Pricecard({ datas }) {
           <ul className="uList">
               {
                   datas.values.map((list,i) => {
-                  if (list) {
+                  if (list.valid) {
                             return (<li key={i} className="List">   {'✔ ' + list.content}</li>)
                         }
                         else {
