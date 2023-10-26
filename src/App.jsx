@@ -1,12 +1,12 @@
-import Pricecard from "../component/priceCard"
+import Pricecard from "./component/priceCard"
 
 function App({ data }) {
 
   
-    return(<div class="cardContainer">
+    return(<div className="cardContainer">
       {
         
-        data.map(element =>< Pricecard datas={element} />)
+        data.map((element, i) => < Pricecard key={i } datas={element} />)
       }
       
     </div>)
